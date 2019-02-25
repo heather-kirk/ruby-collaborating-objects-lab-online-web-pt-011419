@@ -28,8 +28,13 @@ class Artist
   
   def self.create(name)
     artist = self.new(name)
+<<<<<<< HEAD
     artist.save 
     artist
+=======
+    artist.name 
+    artist 
+>>>>>>> 5a37330235fce0d730fc1e521a7880c9402d5566
   end 
   
   def self.find(name)
